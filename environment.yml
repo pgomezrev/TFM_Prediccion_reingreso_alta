@@ -1,0 +1,23 @@
+name: tfm
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - xgboost
+  - imbalanced-learn
+  - shap
+  - scipy
+  - statsmodels
+  - jupyterlab
+  - ipykernel
+  - pip
+  - pip:
+      - category-encoders
+      - tqdm
+      - missingno
