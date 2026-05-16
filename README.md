@@ -44,11 +44,14 @@ Características principales:
 ├── data/
 │   ├── raw/                # Dataset original
 │   ├── processed/          # Datos preprocesados
+│   ├── exports/            # Datos exportados como tablas o imágenes
+│   ├── models/             # Modelos entrenados y exportados para poder usarlos en el notebook 4
 │
 ├── notebooks/
 │   ├── 01_EDA.ipynb        # Análisis exploratorio de datos
 │   ├── 02_preprocessing.ipynb  # Limpieza, feature engineering y preparación
 │   ├── 03_modeling.ipynb   # Modelado y evaluación
+│   ├── 04_interpretability.ipynb   # Interpretabilidad de los datos
 │
 ├── environment.yml         # Entorno reproducible (conda)
 ├── README.md               # Documentación del proyecto
@@ -84,6 +87,9 @@ El desarrollo sigue un enfoque estructurado en varias fases:
 * Random Forest
 * XGBoost
 * Evaluación con AUC-ROC, recall, precision, F1-score
+
+### 4. Interpretabilidad
+
 * Interpretabilidad (SHAP)
 
 ---
@@ -124,6 +130,7 @@ Seguir el orden:
 1. `01_EDA.ipynb`
 2. `02_preprocessing.ipynb`
 3. `03_modeling.ipynb`
+4. `04_interpretability.ipynb`
 
 ---
 
