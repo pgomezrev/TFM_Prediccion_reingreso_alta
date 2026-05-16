@@ -86,7 +86,9 @@ El desarrollo sigue un enfoque estructurado en varias fases:
 * Regresión logística (baseline)
 * Random Forest
 * XGBoost
-* Evaluación con AUC-ROC, recall, precision, F1-score
+* Evaluación con AUC-ROC, recall, precision, F1-score, PR-AUC y Specificity
+* Evaluación de ajusta de umbrales de decisión
+* Validación cruzada
 
 ### 4. Interpretabilidad
 
